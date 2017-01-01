@@ -5,7 +5,7 @@
 [![Code Climate](https://codeclimate.com/github/hsheth2/gonet/badges/gpa.svg)](https://codeclimate.com/github/hsheth2/gonet)
 [![License](http://img.shields.io/:license-MIT-blue.svg)](http://www.opensource.org/licenses/MIT)
 
-A network stack written in Go with the CSP style.
+A network stack written in Go with the CSP style. GoNet was written for research purposes, and the accompanying paper is titled [*An Implementation and Analysis of a Kernel Network Stack in Go with the CSP Style*](https://arxiv.org/abs/1603.05636).
 
 Warning: This project is still under development.
 
