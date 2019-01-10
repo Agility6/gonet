@@ -1,13 +1,11 @@
 # GoNet
 [![GoDoc](https://godoc.org/github.com/hsheth2/gonet?status.svg)](https://godoc.org/github.com/hsheth2/gonet)
 [![Build Status](https://travis-ci.org/hsheth2/gonet.svg?branch=master)](https://travis-ci.org/hsheth2/gonet)
-[![Go Report Card](https://goreportcard.com/badge/github.com/hsheth2/gonet)](https://goreportcard.com/report/github.com/hsheth2/gonet)
-[![Code Climate](https://codeclimate.com/github/hsheth2/gonet/badges/gpa.svg)](https://codeclimate.com/github/hsheth2/gonet)
 [![License](http://img.shields.io/:license-MIT-blue.svg)](http://www.opensource.org/licenses/MIT)
 
 A network stack written in Go with the CSP style. GoNet was written for research purposes, and the accompanying paper is titled [*An Implementation and Analysis of a Kernel Network Stack in Go with the CSP Style*](https://arxiv.org/abs/1603.05636).
 
-Warning: This project is still under development.
+**Warning: GoNet was built for research purposes and is neither production-ready nor under active development.** As an alternative, we would recommend looking into [google/netstack](https://github.com/google/netstack). 
 
 ## Usage
 *Note: This project only works on linux machines (because of its dependency on the tap device).*
