@@ -2,8 +2,7 @@ package arp
 
 import (
 	"bytes"
-
-	"github.com/hsheth2/gonet/ethernet"
+	"gonet/ethernet"
 )
 
 type packet struct {

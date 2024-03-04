@@ -1,12 +1,11 @@
 package ping
 
 import (
+	"gonet/ipv4"
 	"testing"
 	"time"
 
 	"github.com/hsheth2/logs"
-
-	"github.com/hsheth2/gonet/ipv4"
 )
 
 func ping_tester(t *testing.T, ip *ipv4.Address, num uint16) {

@@ -2,11 +2,10 @@ package tcp
 
 import (
 	"errors"
+	"gonet/ipv4"
 	"math"
 	"sync"
 	"time"
-
-	"github.com/hsheth2/gonet/ipv4"
 
 	"github.com/hsheth2/logs"
 	"github.com/hsheth2/notifiers"
@@ -162,7 +161,8 @@ func (c *TCB) Close() error {
 	c.recentAckUpdate.Broadcast(uint32(math.MaxUint32))
 
 	// send FIN
-	/*logs*/ logs.Trace.Println(c.hash(), "Sending FIN within close")
+	/*logs*/
+	logs.Trace.Println(c.hash(), "Sending FIN within close")
 	c.sendFin(c.seqNum, c.ackNum)
 	c.seqAckMutex.RUnlock()
 	c.seqAckMutex.Lock()
@@ -180,7 +180,8 @@ func (c *TCB) Close() error {
 	}
 	/*logs*/ logs.Trace.Printf("%s Close of TCB with lport %d finished", c.hash(), c.lport)
 
-	/*logs*/ logs.Trace.Println(c.hash(), "Unbinding TCB")
+	/*logs*/
+	logs.Trace.Println(c.hash(), "Unbinding TCB")
 	err := portManager.unbind(c.rport, c.lport, c.ipAddress)
 	if err != nil {
 		return err

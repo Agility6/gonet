@@ -3,8 +3,7 @@ package udp
 import (
 	"errors"
 	"fmt"
-
-	"github.com/hsheth2/gonet/ipv4"
+	"gonet/ipv4"
 
 	"github.com/hsheth2/logs"
 )

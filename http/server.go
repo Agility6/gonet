@@ -3,12 +3,11 @@ package http
 import (
 	"errors"
 	"fmt"
+	"gonet/ipv4"
+	"gonet/tcp"
 	"io/ioutil"
 	"path/filepath"
 	"strings"
-
-	"github.com/hsheth2/gonet/ipv4"
-	"github.com/hsheth2/gonet/tcp"
 )
 
 type contentType string

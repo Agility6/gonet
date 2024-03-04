@@ -2,13 +2,12 @@ package ethernet
 
 import (
 	"errors"
+	"gonet/physical"
 	"io/ioutil"
 	"net"
 	"path"
 	"runtime"
 	"strings"
-
-	"github.com/hsheth2/gonet/physical"
 
 	"github.com/hsheth2/logs"
 

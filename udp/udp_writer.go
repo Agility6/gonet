@@ -1,8 +1,6 @@
 package udp
 
-import (
-	"github.com/hsheth2/gonet/ipv4"
-)
+import "gonet/ipv4"
 
 type writer struct {
 	rip      *ipv4.Address // destination ip address

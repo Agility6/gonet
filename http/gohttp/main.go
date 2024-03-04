@@ -2,9 +2,8 @@ package main
 
 import (
 	"fmt"
+	"gonet/http"
 	"path/filepath"
-
-	"github.com/hsheth2/gonet/http"
 )
 
 func main() {

@@ -1,8 +1,8 @@
 package ping
 
 import (
-	"github.com/hsheth2/gonet/icmp"
-	"github.com/hsheth2/gonet/ipv4"
+	"gonet/icmp"
+	"gonet/ipv4"
 
 	"github.com/hsheth2/logs"
 )

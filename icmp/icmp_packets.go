@@ -1,8 +1,6 @@
 package icmp
 
-import (
-	"github.com/hsheth2/gonet/ipv4"
-)
+import "gonet/ipv4"
 
 // Header represents an ICMP header
 type Header struct {

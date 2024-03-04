@@ -1,8 +1,7 @@
 package ipv4
 
 import (
-	"github.com/hsheth2/gonet/ethernet"
-
+	"gonet/ethernet"
 	"sync"
 
 	"github.com/hsheth2/logs"

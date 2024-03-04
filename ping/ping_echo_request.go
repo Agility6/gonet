@@ -2,11 +2,9 @@ package ping
 
 import (
 	"bytes"
+	"gonet/icmp"
+	"gonet/ipv4"
 	"time"
-
-	"github.com/hsheth2/gonet/icmp"
-
-	"github.com/hsheth2/gonet/ipv4"
 
 	"sync/atomic"
 

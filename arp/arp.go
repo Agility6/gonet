@@ -2,8 +2,7 @@ package arp
 
 import (
 	"errors"
-
-	"github.com/hsheth2/gonet/ethernet"
+	"gonet/ethernet"
 
 	"time"
 

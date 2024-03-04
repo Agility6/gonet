@@ -1,8 +1,6 @@
 package ethernet
 
-import (
-	"github.com/hsheth2/gonet/physical"
-)
+import "gonet/physical"
 
 type ethernetWriter struct {
 	dstMAC, srcMAC *MACAddress

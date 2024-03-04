@@ -1,10 +1,9 @@
 package udp
 
 import (
+	"gonet/ipv4"
 	"testing"
 	"time"
-
-	"github.com/hsheth2/gonet/ipv4"
 )
 
 const rwport = 20102

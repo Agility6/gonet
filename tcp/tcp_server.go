@@ -2,9 +2,8 @@ package tcp
 
 import (
 	"errors"
+	"gonet/ipv4"
 	"sync"
-
-	"github.com/hsheth2/gonet/ipv4"
 
 	"github.com/hsheth2/logs"
 )

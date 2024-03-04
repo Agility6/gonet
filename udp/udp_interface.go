@@ -1,9 +1,8 @@
 package udp
 
 import (
+	"gonet/ipv4"
 	"io"
-
-	"github.com/hsheth2/gonet/ipv4"
 )
 
 type Reader interface {
